@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+    body{
+      margin: auto;
+      background-color: hsl(47, 88%, 63%);
+      padding: 0%;
+      font-family: "Figtree", sans-serif;
+    }
+    .card{
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 5rem;
+      align-self: center;
+      max-width:250px;
+      border-radius: 1rem;
+      padding:1rem;
+      background-color: hsl(0, 0%, 100%);
+      border: 1px solid hsl(0, 0%, 7%);
+      box-shadow: 5px 5px hsl(0, 0%, 7%);
+    }
+    .image{
+      margin-bottom: 1rem;
+      max-width: fit-content;
+    }
+    .image img{
+      max-width: 250px;
+      border-radius: 1rem;
+    }
+    .box{
+      background-color:hsl(47, 88%, 63%) ;
+      width: fit-content;
+      padding: 0.5rem;
+      font-weight: 800;
+      font-size: 0.8rem;
+      margin-bottom: 0.5rem;
+    }
+    .date{
+      font-size: 0.7rem;
+      margin-bottom: 1rem;
+      font-weight: 400;
+    }
+    .title{
+      font-size: 1rem;
+      font-weight: 800;
+      /* color: hsl(47, 88%, 63%); */
+    }
+    .title:hover{
+      color: hsl(47, 88%, 63%);
+    }
+    .description{
+      margin-top: 0.5rem;
+      font-size: 0.7rem;
+    }
+    .author{
+      margin-top: 0.5rem;
+      display:flex;
+      flex-wrap: nowrap;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .author img{
+      max-width: 24px;
+      max-height: 24px;
+    }
+    .author p{
+      font-size: 0.7rem;
+      font-weight: 700;
+    }
+    .attribution { 
+      margin-top: 8rem;
+      font-size: 11px; 
+      text-align: center; 
+    }
+    .attribution a { 
+      color: hsl(228, 45%, 44%); 
+    }
+  </style>
+</head>
+<body>
+<div class="card">
+  <div class="image">
+    <img src="/assets/images/illustration-article.svg" alt="illustration-article">
+  </div>
+  <div class="box">
+     Learning
+  </div>
+  <div class="date">
+     Published 21 Dec 2023
+  </div>
+  <div class="title">
+      HTML & CSS foundations
+  </div>
+  <div class="description">
+    These languages are the backbone of every website, defining structure, content, and presentation.
+  </div>
+  <div class="author">
+    <img src="/assets/images/image-avatar.webp" alt="">
+    <p>Greg Hooper</p>
+  </div>
+</div>
+<div class="attribution">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  Coded by <a href="#">Your Name Here</a>.
+</div>
+</body>
+</html>
